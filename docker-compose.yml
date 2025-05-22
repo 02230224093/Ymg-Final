@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  hello-java-app:
+    image: hello-java-app
+    container_name: hello-java-container
+    ports:
+      - "8085:8080"   # Eğer uygulaman port dinliyorsa, harici port eşlemesi yapabilirsin
+    restart: unless-stopped
