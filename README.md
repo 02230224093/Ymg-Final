@@ -22,3 +22,8 @@ Veritabanı bağlantısı için java yaml ve dockerfile dosyalarının içini d�
 Docker-compose build 
 Docker-compose up
 Veritabanına başarıyla bağlandı derse bağlanmıştır. 
+
+
+Docker compose için uzantı .yml olmalı
+Docker dosya adı "Dockerfile"
+nginx için nginx.conf
